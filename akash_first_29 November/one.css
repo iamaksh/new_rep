@@ -1,0 +1,44 @@
+body {
+background-color: #fdd31d;
+}
+
+#id1 {
+    color: #fefefe;
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-top: 26px;
+    margin-left: 62px;
+}
+
+#id2 {
+    margin-left: 755px;
+    margin-top: -53px;
+    color: #fefefe;
+    font-family: sans-serif;
+    font-size: 17px;
+}
+
+
+#id3 {
+    color: #4e4f50; 
+    margin-left: 670px;
+    margin-right: 77px;
+    font-family: sans-serif;
+    margin-top: 0px;
+    text-align: right;
+}
+
+input{
+    border: none; 
+    outline: none; 
+    border-bottom: 1px 
+    solid#000; 
+    width: 45%; 
+    height: 5%;
+    background: transparent;
+    font-size: 18px;
+}
+
+#img1{
+    border-radius: 25px 25px 25px 25px;
+}

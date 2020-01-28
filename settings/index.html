@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="settings.js"></script>
+</head>
+
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class="container">
+        <div class="row" id="top-header">
+            <div class="col-md-6">
+                <h1>Android operating systems</h1>
+            </div>
+            <div class="col-md-6">
+                <div class="select-device">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Select Device
+  <span class="caret"></span></button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#samsung">Samsung</a></li>
+                            <li><a href="#lg">LG</a></li>
+                            <li><a href="#motorola">Motorola</a></li>
+                            <li><a href="#pixel-nexus">Pixel & Nexus</a></li>
+                            <li><a href="#htc">HTC</a></li>
+                            <li><a href="#huawei">Huawei</a></li>
+                            <li><a href="#asus">Asus</a></li>
+                            <li><a href="#leeco-letv">LeEco/LeTV</a></li>
+                            <li><a href="#oneplus">One Plus</a></li>
+                            <li><a href="#lenovo">Lenovo</a></li>
+                            <li><a href="#xiaomi">Xiaomi</a></li>
+                            <li><a href="#nokia">Nokia</a></li>
+                            <li><a href="#vivo">Vivo</a></li>
+                            <li><a href="#oppo">Oppo</a></li>
+                            <li><a href="#realme">Realme</a></li>
+                            <li><a href="#zte">ZTE</a></li>
+                            <li><a href="#wiko">Wiko</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="android-v">
+            <h2>Android version 6.0.1+</h2>
+            <p class="set-paragraph">For devices running Android version 6.0.1 and newer, check that your battery optimisation is not preventing TeamPilot from sending you notifications:</p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap <strong> Settings</strong>.</li>
+                    <li>Select <strong> Battery</strong>.</li>
+                    <li>Tap the <strong> Overflow menu icon</strong> and choose <strong> Battery Optimization</strong>.</li>
+                    <li>Tap the <strong> downward caret </strong> and choose <strong> All apps </strong>.</li>
+                    <li>Tap <strong> TeamPilot</strong>, then tap <strong> Don’t optimize</strong>.</li>
+                </ol>
+            </div>
+        </div>
+
+
+        <div class="android-v">
+            <h2>Android version 7+</h2>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap <strong> Settings</strong>.</li>
+                    <li>Select<strong> Apps</strong>.</li>
+                    <li>Find and tap<strong> TeamPilot</strong>.</li>
+                    <li>Select <strong> Battery</strong>, then tap <strong> Battery Optimisation</strong>.</li>
+                    <li>From here, select the <strong> Apps not optimised</strong> option and change it to<strong> All apps</strong>.</li>
+                    <li>Find <strong> TeamPilot </strong> in this list and set to <strong> Don’t optimise</strong>.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="android-v">
+            <h2>Android version 9</h2>
+            <p class="set-paragraph">For devices running Android version 9, make sure the Adaptive Battery feature is not preventing TeamPilot from sending you notifications:</p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap <strong> Settings</strong>.</li>
+                    <li>Select<strong> Battery</strong>.</li>
+                    <li>Choose<strong> Adaptive Battery</strong>.</li>
+                    <li>Tap<strong> Restricted apps</strong> and make sure TeamPilot is not listed.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="Third-party-apps">
+            <h1>Third-party apps</h1>
+            <div class="android-v">
+                <h2>Clean Master</h2>
+                <p class="set-paragraph">This third-party app manages battery saving and RAM.</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Visit the app’s<strong> Tools</strong> tab.</li>
+                        <li>Select the<strong> Notification Cleaner</strong>.</li>
+                        <li>Tap the<strong> cog icon</strong>.</li>
+                        <li><strong> Disable</strong> this feature for TeamPilot only or for all notifications.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2>Security Master</h2>
+                <p class="set-paragraph">This third-party security app could be blocking TeamPilot from sending notifications:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Visit the app’s<strong> Notification Cleaner</strong>.</li>
+                        <li>Tap the<strong> cog icon</strong>.</li>
+                        <li>Ensure that<strong> TeamPilot</strong> is<strong> un-ticked</strong> and listed under <strong> Apps – Notifications Allowed</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="samsung-phones " id="samsung">
+            <h1>Samsung Phones and Tablets</h1>
+            <div class="android-v">
+                <h2>1. Battery Optimization</h2>
+                <p class="set-paragraph">The first area to check on your device is the Battery section, specifically:<strong> Battery Optimization</strong>. Battery Optimization features are designed to conserve battery, but can prevent TeamPilot from functioning properly in
+                    capturing your drives. You can allow TeamPilot to perform as needed in the background by doing the following:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to<strong> Apps > Settings</strong> on your device</li>
+                        <li>Tap<strong> Device Maintenance</strong> if it is present</li>
+                        <li>Tap<strong> Battery > Battery Usage</strong></li>
+                        <li>Scroll through<strong> All Apps</strong> to find<strong> TeamPilot</strong></li>
+                        <li>Tap<strong> TeamPilot</strong> and set the Optimization Settings to<strong> Off</strong> so TeamPilot can bypass this setting to consistently capture drives</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2>2. Power Saving Mode</h2>
+                <p class="set-paragraph">Additional power/battery settings on Samsung devices like<strong> Power Saving Mode</strong> and<strong> Ultra Power Saver</strong> will turn off location services on your device automatically. Drives will <strong> not </strong> be captured
+                    when Power Saving Mode or Ultra Power Saver are enabled. You can turn off Power Saving Mode by:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to,<strong> Apps > Settings</strong> on your device</li>
+                        <li>Tap<strong> Device Maintenance</strong> if it is present</li>
+                        <li>Tap<strong> Battery</strong></li>
+                        <li>Tap<strong> Power Saving Mode</strong></li>
+                        <li>Tap the toggle to<strong> OFF</strong> to disable Power Saving Mode</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">Power Saving Mode can trigger automatically and cause gaps in your driving logs when your battery is low so ensure this setting won't turn on unexpectedly. If you use these settings, please be sure that location services are turned on
+                    after your device has been sufficiently charged and Power Saving Mode is disabled.</p>
+                <p class="set-paragraph">You can check your location settings by going to: Settings > Security & Location > Location > On</p>
+                <ul>
+                    <li class="set-paragraph"><strong> Important</strong> - "High Accuracy" mode is required as well. You can check if it's on by going to Settings > Security & Location > Location > Mode > High Accuracy</li>
+                </ul>
+            </div>
+
+            <div class="android-v">
+                <h2>3. Smart Manager/App Power Monitor</h2>
+                <p class="set-paragraph">The second setting on Samsung called <strong>Smart Manager/App Power Monitor</strong> will shut off other apps in the background. By default, this app will force-quit TeamPilot if it hasn't been launched in 3 days <strong> and prevent all drives from being captured.</strong></p>
+                <ul>
+                    <li class="set-paragraph">Older Samsung devices (S5 and older - Android OS version 4.4 to 5.1) tend to have the Smart Manager while newer Samsung devices (S6 and newer - Android OS version 6.0 to 8) changed this setting to the App Power Monitor located within
+                        the Device Maintenance app.</li>
+                </ul>
+                <p class="set-paragraph">If your device is using <strong> Android 6 or newer </strong>, your Samsung device most likely has the <strong> App Power Monitor </strong> enabled. Please check your device manual on allowing TeamPilot to be added to the whitelist or
+                    "unmonitored apps" list of this setting, or by following the steps here:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's<strong> Settings (Apps > Settings)</strong> </li>
+                        <li>Tap<strong> Device Maintenance</strong></li>
+                        <li>Tap<strong> Battery</strong> </li>
+                        <li>Tap<strong> App Power Monitor</strong> and/or<strong> Unmonitored Apps</strong> </li>
+                        <li>Then under 'Unmonitored Apps' tap<strong> Add Apps</strong> or<strong> Edit</strong> </li>
+                        <li>Tap<strong> TeamPilot</strong> to add it to the list of unmonitored apps to prevent it from being shut down.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">If your device is using <strong> Android 5 or older</strong> and the Smart Manager app is on your Samsung device, please check the following settings:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Find and open the <strong> Smart Manager </strong> app on your device </li>
+                        <li>Click on <strong> Battery </strong></li>
+                        <li>Under the "App optimization" or "App power saving" area - Click <strong> Detail </strong></li>
+                        <li>Select <strong> TeamPilot </strong> from the list</li>
+                        <li>Change the setting to <strong> "Turned off" </strong> </li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2>4. Data Saver</h2>
+                <p class="set-paragraph">The third setting to check on your device is the Data Saver setting. To prevent issues with Data Saver on your Samsung device:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings </strong></li>
+                        <li>Tap <strong> Data Usage</strong></li>
+                        <li>Tap <strong> Data Saver</strong></li>
+                        <li>If Data Saver is already turned off, leave the setting off so TeamPilot will be unaffected.</li>
+                        <li>Tap Unrestricted data usage</li>
+                        <li>Scroll to and tap <strong> TeamPilot </strong> to <strong> On </strong> to prevent this issue</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2>5. Third-Party RAM/Memory Optimizers</h2>
+                <p class="set-paragraph">The last area to check on your Samsung device is in any third-party Memory/RAM optimization apps like <strong> Memory Booster </strong> if installed on your device. The popular <strong> Memory Booster </strong> app is designed to shut
+                    down apps (like TeamPilot) in the background to prevent any activity. If you use this app, you will need to have TeamPilot bypass this setting to continuously capture drives by adding the app to its whitelist. Here's how:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open the <strong> Memory Booster </strong> app</li>
+                        <li>Tap the ⋮ menu button in the upper right corner</li>
+                        <li>Tap <strong> Whitelist </strong></li>
+                        <li>Tap the <strong> + </strong> button in the upper right corner</li>
+                        <li>Scroll down to <strong> TeamPilot </strong> and tap the <strong> + </strong> button to have it bypass this app</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="samsung-android-6-7">
+            <h1>Samsung (Android 6 - 7)</h1>
+            <p class="set-paragraph"><b>Step 1: Keep Settings for running TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Settings > Device maintenance > Battery > Power saving mode: Off</li>
+                    <li>Settings > Device maintenance > Battery > Unmonitored apps: Add TeamPilot and/or TeamPilot to the unmonitored list</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2: Exclude TeamPilot from battery optimisation</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From a Home screen, navigate:<strong> Apps > Settings > Battery</strong>. If not available, swipe  up or down to access the apps screen then navigate:<strong> Settings > Device maintenance > Battery</strong>.</li>
+                    <li>Tap MORE or the Menu icon (upper-right) then tap<strong> Optimize battery usage</strong>. If not  available, navigate:<strong> Battery Usage (next to Estimated battery life) > Menu icon > Optimize battery usage</strong>.</li>
+                    <li>Tap the<strong> Dropdown menu</strong> (at the top) then tap<strong> All apps</strong>.</li>
+                    <li>If preferred, tap the TeamPilot switches to turn off.  Apps or services unable to be optimized appear grayed out.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 3: Disable Power Saving Mode for running TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the Home screen, touch<strong> Apps</strong>.</li>
+                    <li>Touch<strong> Settings</strong>.</li>
+                    <li>Scroll to and touch<strong> Battery</strong> .</li>
+                    <li>Touch<strong> Power saving mode</strong>.</li>
+                    <li>Touch the slider to turn<strong> Power saving mode off</strong> .</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="samsung-android-v">
+            <div class="samsung-android-8">
+                <h1><strong>Samsung</strong> (Android 8)</h1>
+                <p class="set-paragraph"><b>Step 1: Prioritise notifications from TeamPilot</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the device drawer/shade, tap <strong> Settings</strong>.</li>
+                        <li>Tap <strong> Apps </strong>.</li>
+                        <li>Select <strong> TeamPilot</strong>.</li>
+                        <li>Under <strong> App Setting</strong>, tap <strong> Notifications</strong>.</li>
+                        <li>Select <strong> Messages & Mentions</strong>.</li>
+                        <li>Select <strong> Do Not Disturb Custom Exception</strong>.</li>
+                    </ol>
+                </div>
+
+                <p class="set-paragraph"><b>Step 2: Exclude TeamPilot from battery optimisation</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap <strong> Settings</strong>.</li>
+                        <li>Tap <strong> Device management</strong>.</li>
+                        <li>Select <strong> Battery</strong>.</li>
+                        <li>Tap <strong> Unmonitored apps</strong>.</li>
+                        <li>Add <strong> TeamPilot </strong> to this list.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="samsung-android-9">
+                <h1><strong>Samsung</strong> (Android 9)</h1>
+                <p class="set-paragraph"><b>Step 1: Keep Settings for running TeamPilot</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li><strong> Settings > Apps > TeamPilot> Battery > Allow background activity:</strong> Enabled.</li>
+                        <li><strong> Settings > Apps > TeamPilot> Battery > Optimise battery use</strong> Not optimised. Notice: You’ll need to select “All” from the drop down list on top, and then disable<strong> TeamPilot</strong></li>
+                        <li><strong> Settings > Device care > Battery > Power mode:</strong> High performance</li>
+                        <li><strong> Settings > Device care > Battery > (top menu) > Settings > Optimise settings:</strong> Disabled</li>
+                    </ol>
+                </div>
+
+                <p class="set-paragraph"><b>Step 2: Prioritise notifications from TeamPilot</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the device drawer/shade, tap<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Apps</strong>.</li>
+                        <li>Select <strong> TeamPilot</strong>.</li>
+                        <li>Under<strong> App Setting</strong>, tap<strong> Notifications</strong>.</li>
+                        <li>Select<strong> Messages</strong> &<strong> Mentions</strong>, then<strong> Advanced</strong>.</li>
+                        <li><strong> Select Do Not Disturb Custom Exception.</strong></li>
+                    </ol>
+                </div>
+
+                <p class="set-paragraph"><b>Step 3: Exclude TeamPilot from battery optimisation</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Device management</strong>.</li>
+                        <li>Select<strong> Battery</strong>.</li>
+                        <li>Tap<strong> Unmonitored apps</strong>.</li>
+                        <li>Add<strong> TeamPilot</strong> to this list.</li>
+                    </ol>
+                </div>
+
+                <p class="set-paragraph"><b>Samsung devices with other Android versions</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to<strong> Settings > Battery > App power saving (Detail) > TeamPilot</strong> and toggle the option to OFF.</li>
+                        <li>Then go to<strong> Settings > Power saving > Power saving mode</strong> and disable both settings.</li>
+                        <li>Make sure Ultra power saving mode is also turned off.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><strong> Note</strong> depending on the device model those options may vary. You can find them using the search field at the top of the Settings screen.</p>
+            </div>
+        </div>
+
+        <div class="lg-phones-tablet" id="lg">
+            <h1><b> LG Phones and Tablets</b></h1>
+            <p class="set-paragraph">Check these four settings to ensure TeamPilot Drive Detection is optimized on your LG device.</p>
+            <div class="android-v">
+                <h2>1. Battery/Power Optimization</h2>
+                <p class="set-paragraph">To prevent/resolve this first issue, allow TeamPilot to bypass any Battery/Power Optimization features on your device.</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings</strong></li>
+                        <li>Scroll down and tap <strong> Battery </strong> (Battery & power saving)</li>
+                        <li>Tap <strong> Battery usage</strong></li>
+                        <li>Scroll down and tap <strong> Ignore optimizations</strong></li>
+                        <li>Find and tap <strong> TeamPilot </strong> to <strong> On </strong> so it can bypass this setting allowing it to capture drives consistently</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2><b> 2. Battery Saver Mode</b></h2>
+                <p class="set-paragraph">Additional power/battery settings like <strong> Battery Saver Mode </strong> will turn off location services on your device automatically. Drives will <strong> not </strong> be captured when Battery Saver Mode is enabled. You can turn
+                    off Battery Saver Mode by:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to <strong> Settings </strong> on your device</li>
+                        <li>Tap <strong> Battery </strong> (Battery & power saving)</li>
+                        <li>Tap <strong> Battery Saver Mode </strong></li>
+                        <li>Tap the toggle to <strong> OFF </strong> to disable Battery Saver Mode</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">If you use this setting, please be sure that location services are turned on after your device has been sufficiently charged and Battery Saver Mode is disabled.</p>
+                <p class="set-paragraph">You can check your location settings by going to: Settings > Security & Location > Location > On</p>
+                <ul>
+                    <li class="set-paragraph"><strong> Important</strong> - "High Accuracy" mode is required as well. You can check if it's on by going to Settings > Security & Location > Location > Mode > High Accuracy</li>
+                </ul>
+            </div>
+
+            <div class="android-v">
+                <h2><b> 3. Data Saver</b></h2>
+                <p class="set-paragraph">Also, allow TeamPilot to bypass the Data Saver setting on your LG device:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings </strong></li>
+                        <li>Tap <strong>Mobile Data</strong></li>
+                        <li>Tap <strong>Wi-Fi</strong></li>
+                        <li>Scroll down and tap <strong> TeamPilot </strong></li>
+                        <li>Enable <strong> Unrestricted data usage </strong></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2><b> 4. Third-Party RAM/Memory Optimizers</b></h2>
+                <p class="set-paragraph">The last area to check on your LG device is in any third-party Memory/RAM optimization apps like <strong> Memory Booster </strong> if installed on your device. The popular <strong> Memory Booster </strong> app is designed to shut down
+                    apps (like TeamPilot) in the background to prevent any activity. If you use this app, you will need to have TeamPilot bypass this setting to continuously capture drives by adding the app to its whitelist. Here's how:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open the <strong> Memory Booster </strong> app</li>
+                        <li>Tap the ⋮ menu button in the upper right corner</li>
+                        <li>Tap <strong> Whitelist </strong></li>
+                        <li>Tap the <strong> + </strong> button in the upper right corner</li>
+                        <li>Scroll down to <strong> TeamPilot </strong> and tap the <strong> + </strong> button to have it bypass this app</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="lg-android-7-10">
+                <h2>LG (Android LTE 7/10.1)</h2>
+                <p class="set-paragraph">Step 1: Power Saver Settings for TeamPilot .</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From a home screen, tap<strong> Apps</strong> (located at the bottom).</li>
+                        <li>From the Apps tab, tap<strong> Settings</strong> .</li>
+                        <li>Tap<strong> Battery</strong> .</li>
+                        <li>Tap<strong> Battery saver</strong>.</li>
+                        <li>Tap the<strong> Battery saver switch</strong> to enable to disable .</li>
+                        <li>Tap one of the following:<br>- 5% battery<br>- 15% battery</li>
+                        <li>Tap<strong> Restrict apps in background</strong> to enable or disable. Enabled when a check mark is present.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">Step 2: Exclude TeamPilot from battery optimisation</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li><strong> Settings</strong></li>
+                        <li>General tab (if applicable)><strong> Battery</strong> & power saving><strong> Battery usage</strong> Ignore optimizations.</li>
+                        <li>Tap the<strong> TeamPilot</strong> to ignore battery optimizations.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="lg-android-8">
+                <h2>LG (Android 8)</h2>
+                <p class="set-paragraph">Step 1: Power Saver Settings for TeamPilot .</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to<strong> Settings</strong> .</li>
+                        <li>From tab<strong> General</strong> open<strong> Battery</strong>.</li>
+                        <li>You can check here battery usage.</li>
+                        <li>Go to Battery saver to setup your profile.</li>
+                        <li>Tap off mode.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">Step 2: Power Saving Exclusions Settings for TeamPilot .</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From a home screen, tap<strong> Apps</strong> (located at the bottom).</li>
+                        <li>From the Apps tab, tap<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Battery</strong>.</li>
+                        <li>Tap<strong> Power saving exclusions</strong>.</li>
+                        <li>Tap the<strong> TeamPilot</strong> to enable or disable .</li>
+                        <li>Its depend on condition when already<strong> Power Saver</strong> mode off then its disable .</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">Step 3: Exclude TeamPilot from battery optimisation</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From a Home screen, navigate:<strong> Apps (if available) > Settings > Battery</strong>.</li>
+                        <li>Tap<strong> Battery Usage</strong>.</li>
+                        <li>Tap 'Ignore optimizations' or 'Power saving exclusions'.</li>
+                        <li>Tap the TeamPilot to disable battery optimization for that specific app. Ignoring battery optimizations may result in a TeamPilot is running. Enabled when box is checked or switch is turned on .</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="motorola-phones" id="motorola">
+            <h1>Motorola Phones</h1>
+            <p class="set-paragraph">Check these four settings to ensure TeamPilot Drive Detection is optimized on your Motorola device.</p>
+            <div class="android-v">
+                <h2><b>1. Battery Optimization</b></h2>
+                <p class="set-paragraph">Some Motorola phones will have a built in Battery Optimization feature that will shut down the "activity of seldom used apps". To turn this off so TeamPilot isn't shut down preventing drive detection, please do the following:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings</strong>(Apps > Settings)</li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap the ⋮ menu button, and then tap <strong> Battery Optimization</strong></li>
+                        <li>Tap <strong> All Apps</strong></li>
+                        <li>Find <strong> TeamPilot </strong> and <strong> disable </strong> this optimization feature for it.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">Adjusting this setting should have minimal impact on your device battery and performance as TeamPilot should consume almost no power when stationary (as it quickly goes to "sleep"), and it will typically only minimally increase battery
+                    when in transit.</p>
+            </div>
+
+            <div class="android-v">
+                <h2><b>2. Battery Saver Mode</b></h2>
+                <p class="set-paragraph">Additional power/battery settings like <strong> Battery Saver Mode </strong> will turn off location services on your device automatically. Drives will <strong> not </strong> be captured when Battery Saver Mode is enabled. You can turn
+                    off Battery Saver Mode by:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to <strong> Settings </strong> on your device</li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap the ⋮ menu button, and then tap<strong> Battery Saver Mode </strong></li>
+                        <li>Tap the toggle to <strong> OFF </strong> to disable Battery Saver Mode</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">If you use this setting, please be sure that location services are turned on after your device has been sufficiently charged and Battery Saver Mode is disabled.</p>
+                <p class="set-paragraph">You can check your location settings by going to: Settings > Security & Location > Location > On</p>
+                <ul>
+                    <li class="set-paragraph"><strong> Important</strong> - "High Accuracy" mode is required as well. You can check if it's on by going to Settings > Security & Location > Location > Mode > High Accuracy</li>
+                </ul>
+            </div>
+
+            <div class="android-v">
+                <h2>3. Data Saver</h2>
+                <p class="set-paragraph">Also, ensure your device has unrestricted data usage enabled for TeamPilot by doing the following:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings </strong></li>
+                        <li>Tap <strong>Data usage</strong></li>
+                        <li>Tap <strong>Cellular data usage</strong></li>
+                        <li>Scroll down and tap <strong> TeamPilot </strong></li>
+                        <li>Tap <strong> Background data</strong></li>
+                        <li>Turn On <strong> Unrestricted data usage </strong></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2><b>4. Third-Party RAM/Memory Optimizers</b></h2>
+                <p class="set-paragraph">The last area to check on your LG device is in any third-party Memory/RAM optimization apps like <strong> Memory Booster </strong> if installed on your device. The popular <strong> Memory Booster </strong> app is designed to shut down
+                    apps (like TeamPilot) in the background to prevent any activity. If you use this app, you will need to have TeamPilot bypass this setting to continuously capture drives by adding the app to its whitelist. Here's how:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open the <strong> Memory Booster </strong> app</li>
+                        <li>Tap the ⋮ menu button in the upper right corner</li>
+                        <li>Tap <strong> Whitelist </strong></li>
+                        <li>Tap the <strong> + </strong> button in the upper right corner</li>
+                        <li>Scroll down to <strong> TeamPilot </strong> and tap the <strong> + </strong> button to have it bypass this app</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="motorola-android-6">
+                <h2>Motorola (Android 6 and above)</h2>
+                <p class="set-paragraph"><b>Step 1: Exclude TeamPilot from battery optimisation</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From a Home screen, navigate: Apps > Settings > Battery. If unavailable, tap or swipe the Arrow icon to display all apps then navigate: Settings > Battery.</li>
+                        <li>Tap the Menu icon (located in the upper-right).</li>
+                        <li>Tap Battery optimization. Apps/services unable to be optimized appear grayed out.</li>
+                        <li>Tap the "Not optimized" dropdown menu (located at the top).</li>
+                        <li>Tap All apps.</li>
+                        <li>Tap the TeamPilot tap one of the following then tap Done:<br> o Don't optimize</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="pixel-and-nexus" id="pixel-nexus">
+            <h1>Pixel and Nexus Phones</h1>
+            <p class="set-paragraph">Check these four settings to ensure TeamPilot Drive Detection is optimized on your Pixel or Nexus device.</p>
+            <div class="android-v">
+                <h2><b>1. Battery Optimization</b></h2>
+                <p class="set-paragraph">Make sure your Battery settings aren't disabling TeamPilot in the background without your knowledge:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings</strong></li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap <strong>⋮ (more)</strong></li>
+                        <li>Tap <strong> Battery optimization</strong></li>
+                        <li>Tap<strong> TeamPilot </strong> and set it to<strong> Not Optimized</strong></li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2><b>2. Battery Saver Mode</b></h2>
+                <p class="set-paragraph">Additional power/battery settings like <strong> Battery Saver Mode </strong> will turn off location services on your device automatically. Drives will <strong> not </strong> be captured when Battery Saver Mode is enabled. You can turn
+                    off Battery Saver Mode by:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to <strong> Settings </strong> on your device</li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap <strong> Battery Saver</strong></li>
+                        <li>Tap the toggle to <strong> OFF </strong> to disable Battery Saver Mode</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">If you use this setting, please be sure that location services are turned on after your device has been sufficiently charged and Battery Saver Mode is disabled.</p>
+                <p class="set-paragraph">You can check your location settings by going to: Settings > Security & Location > Location > On</p>
+                <ul>
+                    <li class="set-paragraph"><strong> Important</strong> - "High Accuracy" mode is required as well. You can check if it's on by going to Settings > Security & Location > Location > Mode > High Accuracy</li>
+                </ul>
+            </div>
+
+            <div class="android-v">
+                <h2>3. Data Saver</h2>
+                <p class="set-paragraph">Also, allow TeamPilot to bypass the Data Saver setting on your Google Pixel or Pixel XL so drives are shown as they're captured:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings </strong></li>
+                        <li>Tap <strong>Network & Internet</strong></li>
+                        <li>Tap <strong>Data usage</strong></li>
+                        <li>Tap on<strong>Data saver </strong></li>
+                        <li>If enabled, tap <strong> Unrestricted data usage </strong><br>-If Data Saver is already turned off, leave the setting off so TeamPilot will be unaffected.</li>
+                        <li>Scroll down and tap <strong> TeamPilot </strong> to <strong> On </strong> to consistently track your drives in the background</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <h2><b>4. Third-Party RAM/Memory Optimizers</b></h2>
+                <p class="set-paragraph">The last area to check on your LG device is in any third-party Memory/RAM optimization apps like <strong> Memory Booster </strong> if installed on your device. The popular <strong> Memory Booster </strong> app is designed to shut down
+                    apps (like TeamPilot) in the background to prevent any activity. If you use this app, you will need to have TeamPilot bypass this setting to continuously capture drives by adding the app to its whitelist. Here's how:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open the <strong> Memory Booster </strong> app</li>
+                        <li>Tap the ⋮ menu button in the upper right corner</li>
+                        <li>Tap <strong> Whitelist </strong></li>
+                        <li>Tap the <strong> + </strong> button in the upper right corner</li>
+                        <li>Scroll down to <strong> TeamPilot </strong> and tap the <strong> + </strong> button to have it bypass this app</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <div class="google-pixel-android-10">
+                    <h2><b>Google Pixel (Android 10)</b></h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li><strong> Settings > Apps & Notifications > TeamPilot> Permissions > Location</strong> : Allow all time</li>
+                            <li><strong> Settings > Apps & Notifications > TeamPilot> Advanced > Battery > Background restriction</strong> : App can use battery in background</li>
+                            <li><strong> Settings > Apps & Notifications > TeamPilot> Advanced > Battery > Battery optimization</strong> : Not optimizing battery</li>
+                            <li><strong> Settings > Battery > Battery saver</strong> : Off</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <div class="google-pixel-other-devices">
+                    <h2><b>Google Pixel other devices</b></h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>Settings ><strong> Battery Saver</strong> > Off</li>
+                            <li>Settings ><strong> Apps & Notifications</strong> > Special app access ><strong> Battery</strong></li>
+                            <li>optimisations ><strong> Not Optimised</strong> (<strong> TeamPilot</strong> should be in list)</li>
+                            <li>Settings ><strong> Apps & Notifications</strong > App Info ><strong> TeamPilot</strong> > Advanced (Battery) ><strong> Background Restriction = Background usage can't be restricted</strong> .</li>
+                            <li>Settings ><strong> Apps & Notifications</strong> > App Info ><strong> TeamPilot</strong> > Advanced (Battery) > Battery Optimisation =<strong> Not Optimised</strong></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="htc-phones" id="htc">
+            <h1>HTC Phones</h1>
+            <div class="android-v">
+                <p class="set-paragraph">Some HTC devices will have a built in Battery Optimization feature that will shut down the "activity of seldom used apps". To turn this off so TeamPilot isn't shut down preventing drive detection, please do the following:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings</strong></li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap the menu button and then tap <strong> Battery Optimization</strong></li>
+                        <li>Tap <strong> All apps</strong></li>
+                        <li>Find <strong> TeamPilot </strong> and <strong> disable </strong> this optimization feature for it.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <p class="set-paragraph">Additional power/battery settings like <strong> Battery Saver Mode </strong> will turn off location services on your device automatically. Drives will <strong> not </strong> be captured when Battery Saver Mode is enabled. You can turn
+                    off Battery Saver Mode by:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to <strong> Settings </strong> </li>
+                        <li>Tap <strong> Battery </strong></li>
+                        <li>Tap <strong> Battery Saver</strong></li>
+                        <li>Tap the toggle to <strong> OFF </strong> to disable Battery Saver Mode</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph">If you use this setting, please be sure that location services are turned on after your device has been sufficiently charged and Battery Saver Mode is disabled.</p>
+                <p class="set-paragraph">You can check your location settings by going to: Settings > Security & Location > Location > On</p>
+                <ul>
+                    <li class="set-paragraph"><strong> Important</strong> - "High Accuracy" mode is required as well. You can check if it's on by going to Settings > Security & Location > Location > Mode > High Accuracy</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="huawei-phones" id="huawei">
+            <h1><b>Huawei Phones</b></h1>
+            <div class="android-v">
+                <p class="set-paragraph">Some Huawei phones have a feature/setting called "Protected Apps" within the Battery Manager Settings. This "feature" disables apps in the background when the phone's screen is turned off and can prevent automatic drive detection. To ensure
+                    TeamPilot is listed as a protected app here, please do the following:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open your device's <strong> Settings</strong></li>
+                        <li>Tap <strong> Battery Manager</strong></li>
+                        <li>Tap<strong>Protect Apps</strong></li>
+                        <li>Then, tap <strong> TeamPilot </strong> to <strong> ON </strong> to set it to Protected</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="android-v">
+                <p class="set-paragraph">Another area to check on your Android device is in any third-party Memory/RAM optimization apps like <strong> Memory Booster</strong> if installed on your device. The popular <strong> Memory Booster</strong> app is designed to shut down
+                    apps (like TeamPilot) in the background to prevent any activity. If you use this app, you will need to have TeamPilot bypass this setting to continuously capture drives by adding the app to its whitelist. Here's how:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Open the <strong> Memory Booster </strong> app</li>
+                        <li>Tap the ⋮ menu button in the upper right corner</li>
+                        <li>Tap <strong> Whitelist </strong></li>
+                        <li>Tap the <strong> + </strong> button in the upper right corner</li>
+                        <li>Scroll down to <strong> TeamPilot </strong> and tap the <strong> + </strong> button to have it bypass this app</li>
+                    </ol>
+                </div>
+            </div>
+            <p class="set-paragraph">If your device isn't listed above, please reference your device manual on how to allow unrestricted background data usage for TeamPilot, as well as having TeamPilot bypass app, memory, or battery optimizing settings so drive detection isn't
+                disabled without your knowledge. Also, please regularly open the mobile app to stay up to date on your classifications but also, to ensure your device settings aren't restricting or preventing TeamPilot from running in the background.</p>
+
+            <div class="huawei-android-v">
+                <div class="huawei-android-7">
+                    <h2>Huawei (Android 7)</h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>Phone settings > Advanced Settings > Battery manager > Power plan is set to Performance.</li>
+                            <li>Phone Settings > Advanced Settings > Battery Manager > Protected apps – check for<strong> TeamPilot</strong> as Protected.</li>
+                            <li>Phone Settings > Apps > <strong> TeamPilot</strong> > Battery > Power-intensive prompt <strong> TeamPilot</strong> and Keep running after screen off TeamPilot .</li>
+                            <li>Phone settings > Apps > Advanced (At the bottom) > Ignore optimisations > Press Allowed > All apps > <strong> TeamPilot</strong> and set to Allow .</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="huawei-android-8">
+                    <h2>Huawei (Android 8)</h2>
+                    <p class="set-paragraph"><b>Step 1 : Ignore battery optimisation for TeamPilot :</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong> .</li>
+                            <li>Search<strong> Ignore battery optimisation</strong> .</li>
+                            <li>Tap<strong> Ignore battery optimisation</strong> .</li>
+                            <li>Again tap<strong> Ignore battery optimisation</strong> .</li>
+                            <li>From down arrow tap<strong> All apps</strong>, search<strong> Team Pilot</strong> .</li>
+                            <li>Tap<strong> TeamPilot</strong> .</li>
+                            <li>And set to<strong> Allow</strong> .</li>
+                        </ol>
+                    </div>
+                    <p class="set-paragraph"><b>Step 2 : Keep TeamPilot running in background:</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong> .</li>
+                            <li>Tap Battery.</li>
+                            <li>Tap<strong> App launch</strong> .</li>
+                            <li>Search<strong> TeamPilot</strong> on the list.</li>
+                            <li>Disable the<strong> TeamPilot</strong> toggle and its show Manage Manually.</li>
+                            <li>Tap to OK</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="huawei-android-9">
+                    <h2>Huawei (Android 9)</h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li><strong> Settings > Battery > Performance mode</strong> : Enabled</li>
+                            <li><strong> Settings > Battery > App launch > Team Pilot</strong> Manage manually (Auto-launch: Enabled, Secondary launch: Enabled, Run in background: Enabled)</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="honor-6">
+                    <h2>Huawei Honor 6</h2>
+                    <p class="set-paragraph"><b>Step 1: List TeamPilot as a protected app</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                            <li>Tap<strong> Notification Manager.</strong>.</li>
+                            <li>Tap<strong> Protected apps</strong>.</li>
+                            <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                        </ol>
+                    </div>
+                    <p class="set-paragraph"><b>Step 2: Enable TeamPilot in the Notification Manager</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                            <li>Tap<strong> Power Saving</strong>.</li>
+                            <li>Select<strong> Notify</strong> for TeamPilot to receive push notifications.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="honor-8">
+                    <h2>Huawei Honor 8</h2>
+                    <p class="set-paragraph"><b>Step 1: List TeamPilot as a protected app</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                            <li>Tap<strong> Advanced Settings.</strong></li>
+                            <li>Tap<strong> Battery Manager.</strong></li>
+                            <li>Tap<strong> Protected apps (or Close apps after screen lock)</strong>.</li>
+                            <li>Toggle TeamPilot to enable.</li>
+                        </ol>
+                    </div>
+                    <p class="set-paragraph"><b>Step 2: Ignore battery optimisations for TeamPilot</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                            <li>Tap<strong> apps</strong>.</li>
+                            <li>Tap<strong> Advanced.</strong>.</li>
+                            <li>Select<strong> Ignore battery optimizations</strong>.</li>
+                            <li>Choose <strong> TeamPilot</strong> and ignore the app.</li>
+                        </ol>
+                    </div>
+                    <p class="set-paragraph"><b>Step 3: Allow notifications from TeamPilot</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                            <li>Select the<strong> Notification Panel</strong> &<strong> Status Bar</strong>.</li>
+                            <li>Tap<strong> Notification Centre</strong> and find<strong> TeamPilot</strong>.</li>
+                            <li>Ensure that<strong> Allow Notifications</strong> and<strong> Priority Display</strong> are<strong> active</strong>.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="p8-lite">
+                    <h2>Huawei P8 lite</h2>
+                    <p class="set-paragraph"><b>Step 1: Enable TeamPilot to run at start-up</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Phone Manager</strong>.</li>
+                            <li>Swipe left and tap<strong> Start-up Manager</strong>.</li>
+                            <li>Tap<strong> TeamPilot</strong> and ensure that it’s set to run automatically at system start-up.</li>
+                        </ol>
+                    </div>
+                    <p class="set-paragraph"><b>Step 2: Allow notifications from TeamPilot</b></p>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Phone Manager</strong>.</li>
+                            <li>Swipe left and tap<strong> Notification Manager.</strong>.</li>
+                            <li>Tap<strong> Rules</strong> and ensure that TeamPilot is set up to send notifications to the notification panel. Check if any other settings in this view could be blocking notifications.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="huawei-mate8-and-nova-plus">
+                    <h2>Huawei Mate 8 & Huawei Nova Plus</h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings.</strong>.</li>
+                            <li>Tap<strong> Advanced Settings</strong>.</li>
+                            <li>Tap<strong> Battery Manager</strong>.</li>
+                            <li>Tap<strong> Protected apps</strong>.</li>
+                            <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="huawei-p20-p30">
+                    <h2>Huawei P20 & P30</h2>
+                    <div class="card">
+                        <ol class="ordered-android-v">
+                            <li>From the app drawer, tap<strong> Settings.</strong>.</li>
+                            <li>Tap<strong> apps</strong>.</li>
+                            <li>Tap<strong> TeamPilot</strong>.</li>
+                            <li>Select<strong> Power usage</strong>, followed by<strong> App launch</strong>.</li>
+                            <li>Toggle<strong> Manage automatically</strong> to<strong> Off</strong>.</li>
+                            <li>Then, toggle<strong> Auto-launch</strong>,<strong> Secondary launch</strong> and Run in Background to<strong> On</strong>.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="asus-phones" id="asus">
+            <h1>Asus Phones</h1>
+            <div class="asus-android-6-or-above">
+                <h2>Asus (Android 6 or above)</h2>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to<strong> Settings</strong> and in the search bar type "". Tap<strong> Ignore battery optimization > Teampilot</strong> .</li>
+                        <li>Open the<strong> Asus Start Up Manager</strong> app and set<strong> Teampilot</strong> to<strong> Ignore battery optimization Autostart</strong> .</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="asus-zenfone">
+                <h2>Asus Zenfone (Android 7.0)</h2>
+                <p class="set-paragraph"><b>Step 1: Ensure that TeamPilot is set to auto-start</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Power Management.</strong>.</li>
+                        <li>Select<strong> Auto-start Manager.</strong>.</li>
+                        <li>Find TeamPilot and make sure it’s enabled.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><b>Step 2: List TeamPilot as a protected app</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong> Mobile Manager</strong>.</li>
+                        <li>Tap<strong> Boost.</strong>.</li>
+                        <li>Tap<strong> Enable Super Boost</strong>, then select<strong> Protected app list</strong>.</li>
+                        <li>Verify that TeamPilot is on the list.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="asus-zenfone-2">
+                <h2>Asus Zenfone 2</h2>
+                <p class="set-paragraph">Make sure that TeamPilot is allowed to begin on start-up from your Auto-start manager:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong> Apps</strong>.</li>
+                        <li>Tap<strong> Auto-start manager</strong>.</li>
+                        <li>Toggle<strong> TeamPilot</strong> to Allow.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="le-eco-le-tv" id="leeco-letv">
+            <h1>LeEco/LeTV</h1>
+            <p class="set-paragraph"><b>Step 1: Enable TeamPilot to run at start-up</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                    <li>Tap<strong> Permissions.</strong>.</li>
+                    <li>Tap<strong> Manage Auto Launch</strong>. If you’ve enabled other apps to auto-launch,<strong> you’ll see You’ve enabled [x] apps to auto launch.</strong></li>
+                    <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2: List TeamPilot as a protected app</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong>Settings</strong>.</li>
+                    <li>Select<strong> Battery, then tap<strong> Power saving management</strong>.</li>
+                    <li>Select<strong> App Protection</strong>.</li>
+                    <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph-border"><strong>Note:</strong> If you have enabled Lock Screen Cleanup and Ultra Long Standby during Sleep, you must disable them to allow TeamPilot notifications.</p>
+        </div>
+
+        <div class="one-plus-phones" id="oneplus">
+            <h1>One Plus Phones</h1>
+            <div class="one-plus-android-7">
+                <h2>One Plus (Android 7.0 and earlier)</h2>
+                <p class="set-paragraph">For versions earlier than Android 8.0 Oreo, make sure that TeamPilot is set to auto-launch:</p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong>Settings</strong>.</li>
+                        <li>Tap<strong> apps</strong>.</li>
+                        <li>Tap the<strong> cog icon</strong> in the top right.</li>
+                        <li>Select<strong> App Auto launch</strong>.</li>
+                        <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="one-plus-android-8">
+                <h2>One Plus (Android 8.0 and later)</h2>
+                <p class="set-paragraph"><b>Step 1: Check that app storage is set to clear normally</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong>Settings</strong>.</li>
+                        <li>Tap the<strong>Advanced</strong>.</li>
+                        <li>Select<strong> Recent apps management.</strong>.</li>
+                        <li>Ensure that<strong> Normal clear</strong> is enabled.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><b>Step 2: Exclude TeamPilot from battery optimisation</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong>Settings</strong>.</li>
+                        <li>Tap<strong> Battery</strong>, then<strong> Battery Optimisation</strong>.</li>
+                        <li>Tap<strong> Apps not optimised</strong> and select<strong> All apps</strong>.</li>
+                        <li>Find TeamPilot and make sure it’s set to<strong> Don’t optimise</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="one-plus-android-9">
+                <h2>One Plus (Android 9)</h2>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li><strong> Settings > Battery > Battery saver</strong> : Off</li>
+                        <li><strong> Settings > Battery > Battery optimisation > Team Pilot</strong> : Don’t optimise.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="one-plus-3">
+                <h2>One Plus 3</h2>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong>Settings</strong>.</li>
+                        <li>Tap<strong> Battery</strong></li>
+                        <li>Tap<strong> Battery Optimisation</strong>.</li>
+                        <li>Tap the<strong> Overflow menu</strong> in the top right of that screen.</li>
+                        <li>Select<strong> Advanced Optimization</strong>.</li>
+                        <li>Toggle<strong> TeamPilot</strong> to<strong> off</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="oppo-phones" id="oppo">
+            <h1>OPPO Phones</h1>
+            <p class="set-paragraph"><b>Step 1: List TeamPilot as a protected app</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                    <li>Tap<strong> Advanced Settings</strong>.</li>
+                    <li>Tap<strong> Battery Manager</strong>, then<strong> Protected Apps</strong>.</li>
+                    <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2: Ignore battery optimisation for TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Tap on<strong> Settings</strong>.</li>
+                    <li>Select<strong> Battery, then tap on<strong> Energy Saver</strong>.</li>
+                    <li>Find<strong> TeamPilot</strong> and ensure that<strong> Freeze when in Background, Abnormal Apps Optimisation</strong> and<strong> Battery optimisation</strong> are all disabled.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 3: Allow notifications from TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                    <li>Tap<strong> Notification Panel & Status Bar</strong>.</li>
+                    <li>Tap<strong> Notification Centre</strong>.</li>
+                    <li>Find TeamPilot and activate<strong> allow notifications</strong> and<strong> priority display</strong>.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 4: Add TeamPilot to start up manager</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Open the<strong> Security app</strong>.</li>
+                    <li>Select<strong> Privacy Permissions</strong>, then<strong> Start up manager</strong>.</li>
+                    <li>Find<strong> TeamPilot</strong> and ensure this setting is enabled.</li>
+                </ol>
+            </div>
+
+            <div class="oppo-android-6-or-above">
+                <h2>Oppo Android (6 or above)</h2>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li><strong> Go to Settings > App Management > TeamPilot > Enable Allow Auto Startup</strong> .</li>
+                        <li>Tap<strong> Power Saver</strong> and select<strong> Allow Background Running</strong> .</li>
+                        <li>On Oppo devices that have a 'Security Center', open the<strong> Security Center app</strong> and go to<strong> Privacy Permissions > Startup manager > Allow TeamPilot</strong> .</li>
+                        <li>On some Oppo devices (eg. R9, R11, and A37f) you will need to go to<strong> Settings > Battery > Others > TeamPilot</strong> and uncheck all settings.</li>
+                        <li>On some other devices, you will need to go to<strong> Settings > Battery and storage > Battery manager</strong> and turn off Smart power saving. Tap<strong> Power consumption details > Optimize for excessive power consumption</strong>and
+                            uncheck
+                            <strong> TeamPilot</strong> .</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><strong>Note :</strong>After you charge your<strong> OPPO</strong> phone to 80% or higher, Low<strong> Power Mode</strong> will automatically turn off. To manually turn off Low<strong> Power Mode</strong> at any time, go to<strong> [Settings] > [Battery] > [Low Power Mode]</strong>.
+                    [Freeze when in background]: Use this feature to TeamPilot running in the background.</p>
+            </div>
+        </div>
+
+        <div class="lenovo-phones" id="lenovo">
+            <h1>Lenovo Phones</h1>
+            <p class="set-paragraph"><b>Step 1 : Enable the auto-start setting for the TeamPilot app:</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                    <li>Tap<strong>Power Manager</strong>.</li>
+                    <li>Select<strong> Background app management</strong>.</li>
+                    <li>Toggle TeamPilot to<strong> Allow auto-start</strong>.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2 : Ignore battery optimisation for TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Touch<strong> Settings</strong> on Home screen</li>
+                    <li>Tap<strong> Power manager</strong></li>
+                    <li>Tap<strong> Battery optimization</strong></li>
+                    <li>Tap an<strong> TeamPilot</strong></li>
+                    <li>Select<strong> Optimize</strong></li>
+                    <li>Tap<strong> DONE</strong></li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="xiaomi-phones" id="xiaomi">
+            <h1>Xiaomi Phones</h1>
+            <p class="set-paragraph"><b>Step 1: check that TeamPilot is given permission to autostart</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the app drawer, tap<strong> Security</strong>.</li>
+                    <li><strong> Tap Permissions</strong>.</li>
+                    <li><strong> Tap Autostart</strong>.</li>
+                    <li>Toggle<strong> TeamPilot</strong> to enable.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2: ignore battery restrictions for TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the device drawer/shade, tap<strong> Settings</strong>.</li>
+                    <li>Select<strong> Manage Apps’ Battery Usage<strong>.</li>
+                <li>Tap <strong> Apps</strong>.</li>
+                    <li>Tap <strong> TeamPilot</strong>, then tap <strong> No Restrictions</strong>.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 3: Allow notifications from TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>From the device drawer/shade, tap<strong> Settings</strong>.</li>
+                    <li>Select<strong> App Notifications.<strong>.</li>
+                    <li>Tap <strong> TeamPilot</strong>.</li>
+                    <li>Toggle on <strong> Set as priority </strong>.</li>
+                </ol>
+            </div>
+
+            <div class="Xiaomi-android-6-or-above">
+                <h2>Xiaomi (Android 6 or above)</h2>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Go to<strong> Settings</strong> and in the search bar type<strong> "Ignore battery optimization"</strong>.</li>
+                        <li>Tap<strong> Ignore battery optimization</strong> ><strong> TeamPilot</strong>.</li>
+                        <li>On Xiaomi devices that have a battery saving option, go to<strong> Settings > Battery & Performance > Manage apps battery usage > Power Saving Modes</strong> and toggle the option to OFF.</li>
+                        <li>On some Xiaomi devices, you will also need to go to the<strong> Security app > Permissions > Autostart</strong>.</li>
+                        <li>Select<strong> TeamPilot</strong> so it has accessibility permission on start.</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="Xiaomi-miui-10">
+                <h2>Xiaomi (MIUI 10)</h2>
+                <p class="set-paragraph">To let TeamPilot run successfully in the background, make sure your settings look like the following (here for example is Sleep as Android):</p>
+                <p class="set-paragraph"><b>Power management</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Settings > Advanced Settings > Battery manager > Power plan is set to Performance</li>
+                        <li>Device Settings > Advanced Settings > Battery Manager > Protected apps – TeamPilot needs to be Protected</li>
+                        <li>Device Settings > Apps > TeamPilot > Battery > Power-intensive prompt and Keep running after screen off</li>
+                        <li>Settings > Additional Settings > Battery & Performance > Manage apps’ battery usage and here:<br>-Switch Power Saving Modes to Off<br>-Choose the next options: Saving Power in The Background > Choose apps > select TeamPilot > Background
+                            Settings > No restrictions</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><b>App battery saver</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>Security > Battery > App Battery Saver > TeamPilot > No restriction</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><b>Autostart</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>according to Xiaomi: Open Security app > Permissions > Auto-start</li>
+                        <li>Enable<strong> Autostart</strong> for desired<strong> TeamPilot</strong>.</li>
+                        <li>Search for<strong> TeamPilot</strong> and tap to<strong> Enable</strong></li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="nokia-phones" id="nokia">
+            <h1>Nokia Phones</h1>
+            <div class="nokia-oreo">
+                <h2>Nokia Oreo</h2>
+                <p class="set-paragraph"><b>Step 1: Enable the blacklist setting for the TeamPilot app:</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap go to<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Battery</strong>.</li>
+                        <li>Select<strong> Background activity manager</strong>.</li>
+                        <li>Now<strong> Enable blacklist</strong>.</li>
+                        <li>Toggle off TeamPilot to<strong> Run in Background</strong>.</li>
+                    </ol>
+                </div>
+                <p class="set-paragraph"><b>Step 2 : Ignore battery optimisation for TeamPilot :</b></p>
+                <div class="card">
+                    <ol class="ordered-android-v">
+                        <li>From the app drawer, tap<strong> Settings</strong>.</li>
+                        <li>Tap<strong> Battery</strong> then<strong> Battery Optimisation</strong>.</li>
+                        <li>Tap<strong> Not optimised</strong> and select<strong> All apps</strong>.</li>
+                        <li>Find<strong> TeamPilot</strong> and make sure it’s set to<strong> Don’t optimise</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="vivo-phones" id="vivo">
+            <h1>Vivo Phones</h1>
+            <p class="set-paragraph"><b>Step 1 : How to turn on High background power consumption</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li><strong> Settings</strong></li>
+                    <li><strong> Battery</strong></li>
+                    <li><strong> High background power consumption</strong></li>
+                    <li>Tap the<strong> TeamPilot</strong> to enable</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2 :Turn on/off Autostart for my apps</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li><strong> Settings</strong></li>
+                    <li><strong> More settings</strong></li>
+                    <li><strong> Permission management(Applications)</strong></li>
+                    <li><strong> Autostart to turn</strong> on the<strong> TeamPilot</strong> switch</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 3 :Turn on Battery Saver</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Go to<strong> Settings</strong></li>
+                    <li>Then tap on<strong> Battery option</strong>.</li>
+                    <li>Then Tap on<strong> Battery saver</strong> option</li>
+                    <li>Then select the<strong> Never</strong> at which you want to trigger the battery saver in your phone and you are Done.</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 4 :Turn on Battery Saver</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Go to<strong> Settings | Battery</strong></li>
+                    <li>Tap on<strong> menu button.</strong>.</li>
+                    <li>Tap on<strong> Battery Optimization.</strong></li>
+                    <li>Locate and tap the TeamPilot you want to add back to the list.</li>
+                    <li>Tap<strong> Don’t Optimize</strong>.</li>
+                    <li>Tap<strong> DONE</strong>.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="realme-phones" id="realme">
+            <h1>Realme Phones</h1>
+            <p class="set-paragraph"><b>Step 1 : How to turn off Smart Power Saver Smart power saving scenarios.</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li><strong> Settings</strong></li>
+                    <li><strong> Battery</strong></li>
+                    <li>Toggle Smart Power Saver (Recommended) to disable .</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 2 :Keep running in background for TeamPilot</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Tap<strong> Settings</strong></li>
+                    <li>Tap<strong> Battery</strong></li>
+                    <li>Tap<strong> Custom Power Saver</strong></li>
+                    <li>Select<strong> TeamPilot</strong> app in list</li>
+                    <li>Tap on<strong> TeamPilot</strong></li>
+                    <li>And tap Allow Background Running</li>
+                </ol>
+            </div>
+            <p class="set-paragraph"><b>Step 3 : How to turn off Smart power saving scenarios.</b></p>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Tap<strong> Settings</strong></li>
+                    <li>Tap<strong> Battery</strong></li>
+                    <li>Tap<strong> Smart power saving scenarios</strong></li>
+                    <li>Toggle Sleeping Mode to disable .</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="zte-phones" id="zte">
+            <h1>ZTE Phones</h1>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Go to<strong> Settings</strong> and in the search bar type "Ignore battery optimization". Tap<strong> Ignore battery optimization > TeamPilot</strong>.</li>
+                    <li>On ZTE devices, you will need to disable Smart Power Save, and go to<strong> Settings > Power manager > Power management for TeamPilot</strong>.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="wiko-devices" id="wiko">
+            <h1>Wiko devices</h1>
+            <div class="card">
+                <ol class="ordered-android-v">
+                    <li>Go to<strong> Settings</strong> and in the search bar type<strong> "Ignore battery optimization"</strong>.</li>
+                    <li>Tap<strong> Ignore battery optimization</strong> ><strong> TeamPilot</strong>.</li>
+                    <li>Go to<strong> Settings</strong> ><strong> Protected Applications</strong> and set<strong> TeamPilot</strong> as a Protected app.</li>
+                </ol>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>

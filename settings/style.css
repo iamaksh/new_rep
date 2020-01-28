@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700");
+body {
+    font-family: CircularPro, appleLogo, sans-serif;
+    line-height: 1.5;
+}
+
+.container {
+    align-content: center;
+}
+
+.container h1 {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 27px;
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+.container h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+ol {
+    max-width: 100%;
+    counter-reset: my-awesome-counter;
+    list-style: none;
+    padding-left: 40px;
+}
+
+ol li {
+    margin: 0 0 0.5rem 0;
+    counter-increment: my-awesome-counter;
+    position: relative;
+    font-weight: normal;
+}
+
+ol li::before {
+    content: counter(my-awesome-counter);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    position: absolute;
+    --size: 1.7rem;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+    background: #2ab27b;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.ordered-android-v {
+    padding: 2rem 2rem 0rem 3.5rem;
+}
+
+.card p {
+    margin-left: 2rem;
+}
+
+.set-paragraph {
+    text-align: justify;
+    font-weight: normal;
+    margin-top: 1.1rem;
+}
+
+.set-paragraph-border {
+    border: 0.06rem solid #2ab27b;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #E7F6F0;
+}
+
+.android-heading {
+    margin-left: 1rem;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.select-device {
+    padding-top: 3.5rem;
+}
+
+.dropdown li {
+    padding: 0rem 0rem 0rem 1.5rem;
+}
+
+.wiko-devices {
+    margin: 0rem 0rem 5rem 0rem;
+}
